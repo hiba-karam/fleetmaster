@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row justify-content-center mt-5">
+    <div class="col-md-6">
+        <div class="card shadow-sm border-0">
+            <div class="card-body text-center p-5">
+                <h3 class="text-danger mb-3">Supprimer le véhicule</h3>
+                <p class="lead">Voulez-vous vraiment supprimer le véhicule <strong>{{ vehicule.immatriculation }}</strong> ?</p>
+                <form method="POST" class="mt-4">
+                    {% csrf_token %}
+                    <a href="/" class="btn btn-outline-secondary me-2">Annuler</a>
+                    <button type="submit" class="btn btn-danger">Supprimer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
