@@ -21,4 +21,4 @@ FleetMaster est une application web ERP centralisée dédiée à la gestion inte
 
 ## Auteur
 
-Projet réalisé par Hiba Karam — Élève Ingénieure @ EMSI
+Projet réalisé par Hiba Karam - Élève Ingénieure @ EMSI
