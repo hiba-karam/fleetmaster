@@ -1,5 +1,6 @@
 # FleetMaster - Système de Gestion de Flotte Automobile
 
+## À propos
 FleetMaster est une application web ERP centralisée dédiée à la gestion intelligente d'un parc automobile d'entreprise. Elle offre un suivi complet du cycle de vie des véhicules, une gestion des accès par rôles, et un système d'alertes automatisées pour la maintenance préventive.
 
 ## Fonctionnalités
